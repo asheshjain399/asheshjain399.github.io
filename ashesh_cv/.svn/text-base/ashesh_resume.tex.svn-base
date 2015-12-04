@@ -1,0 +1,254 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[line,margin]{res} 
+\usepackage{verbatim} 
+\usepackage{url}
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.5in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+
+\name{Ashesh Jain}
+% \address used twice to have two lines of address
+\address{142 Gates Building, Stanford University, CA 94305}
+\address{ashesh@cs.cornell.edu, \url{www.asheshjain.org}, +1-607-280-1766}
+
+
+
+\begin{resume} 
+ 
+
+\section{Interests}
+My research interest lies at the intersection of machine learning, vision and
+robotics.
+I build machine learning systems \& algorithms
+for agents -- such as robots, cars etc. -- to learn from informative human signals;
+particularly learning from signals that are easy to
+elicit at a large-scale but are inherently weak and noisy. Recently, I have been
+%am recently
+exploring the potential of crowd-sourcing feedback to teach robots in
+context-rich environments and using vision based human feedback for
+assistive cars. 
+\iffalse
+
+for humans to help machines -- such as robots, cars etc. -- become smart by implicitly providing
+learning signals. I am particularly interested in learning from signals that are easy to
+elicit at large-scale but are inherently weak and noisy. I am recently
+exploiting the potential of crowd-sourcing feedback to teach robots good trajectories in
+context-rich environments and using vision based human feedback for
+assistive cars. 
+\fi
+\section{Education} 
+
+{\bf Stanford University}, California, USA  \hfill (2014-Present)
+ 
+ \vspace{-3mm}
+  \hspace {4mm } Visiting Scholar, Computer Science 
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Advisor: Prof. Ashutosh Saxena and Prof. Silvio Savarese
+ \item Leading the Robo Brain project on multiple fronts
+ \end{itemize}
+ 
+{\bf Cornell University}, New York, USA  \hfill (2012-Present)
+ 
+ \vspace{-3mm}
+  \hspace {4mm } Ph.D. student, Computer Science 
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item PhD committee: Ashutosh Saxena (advisor), Thorsten Joachims, Doug James
+ and Robert Kleinberg
+ \item Learning from large-scale human signals for robots and assistive cars
+ \end{itemize}
+ 
+ {\bf Indian Institute of Technology Delhi}, India  \hfill (2007-2012)
+   
+ \vspace{-3mm}
+  \hspace {4mm } B.Tech. Electrical Engineering \& M.Tech. Information
+and Communication Technology
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Advisor: Prof. Manik Varma and Prof. S.V.N. Vishwanathan
+ \item Thesis: Large-scale Algorithms for Multiple Kernel Learning
+ \end{itemize}
+ 
+ \section{Achievements  \\ And Honors} 
+ \vspace{-4mm}
+\hspace{-4mm}
+\begin{itemize}
+\item Interviewed by BBC World News prime time show \textit{Click} for building robots
+for supermarkets. Broadcasted to millions of viewers. (2014)
+\item Research video on Teaching Robots from Human Signals received more than
+100,000 hits on YouTube in less than 24 hours. Research covered by Discovery Channel, FOX
+News, IEEE Spectrum, Techcrunch and many others. (2013)
+\item One of two students selected from IIT Delhi to present at the Indo-German
+Winter Academy on semiconductor device physics and fabrication. (2010)
+\item Director's Merit Award IIT Delhi, for highest semester grade point (2010)
+\item Summer Undergraduate Research Award, IIT Delhi, for embedded systems
+project on: Design and development of low cost optical densitometer for rural
+paramedics (2009)
+\end{itemize} 
+ 
+ \section{Publications} 
+  		A. Jain, S. Sharma, T. Joachims and  A. Saxena. Learning Preferences for
+Manipulation Tasks from Online Coactive Feedback. In IJRR, 2014. (Conditionally accepted with revisions)
+ 
+ 		A. Jain, D. Das, J. K. Gupta and  A. Saxena. PlanIt: A Crowdsourcing
+Approach for Learning to Plan Paths from Large Scale Preference Feedback. In ICRA. (Under Submission) 
+ 
+ 		H. S. Koppula, A. Jain and A. Saxena. Anticipatory Planning for
+Human-Robot Teams. In ISER,
+2014.
+ 
+		 A. Jain, B. Wojcik, T. Joachims and A. Saxena. Learning Trajectory Preferences for Manipulators via Iterative Improvement. In NIPS, 2013.
+
+ 		A. Jain, S. Sharma  and A. Saxena. Beyond Geometric Path Planning:
+Learning Context-Driven Trajectory Preferences via Sub-optimal Feedback. In ISRR, 2013.
+
+  		A. Jain, S. V. N. Vishwanathan and and M. Varma. SPG-GMKL:
+Generalized multiple kernel learning with a million kernels. In ACM SIGKDD, 2012.
+
+\section{Projects 2012-Present}
+{\bf Robo Brain: Massive Knowledge Graph for Robots} \hfill (Ongoing)
+    
+ \vspace{-3mm}
+  \hspace {4mm } Leader of learning team: {\url{http://robobrain.me}}
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Developed machine learning algorithms for knowledge graph combining
+multi-modal data from Natural Language, Vision, 3D-perception and Robot
+trajectories
+\item Conceptualized \& built the distributed system architecture for managing multi-modal
+data, learning from crowd-sourcing feedback and visualizing the knowledge graph. 
+ \item Leading the project on major fronts: complete software stack,
+knowledge graph building, crowd-sourcing feedback and probabilistic beliefs on
+graph
+%\item Building large-scale learning system involving: Amazon Elastic Cloud, Django, MongoDB and
+%Graph Databases such as Neo4j
+%\item Served more than 50,000 public hits in last two months
+ \end{itemize}
+
+{\bf Brain4Cars: Vision for assitive cars} \hfill (Ongoing)
+    
+% \vspace{-3mm}
+%  \hspace {4mm }
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+\item Building assistive features for cars using weak visual feedback from humans
+\item Developed machine learning algorithms to predict driver's future maneuvers
+by understanding facial movements
+ \end{itemize}
+
+
+{\bf PlanIt: A Crowd-sourcing Approach for Learning to Plan Paths} 
+    
+ %\vspace{-3mm}
+ %\hspace {4mm } 
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Built a machine learning system to teach robots good trajectories from
+crowd-sourcing feedback. Project webpage: {\url{http://planit.cs.cornell.edu}} 
+ \item Modeled user feedback as a generative process with latent user intentions  
+ \end{itemize}
+
+{\bf Beyond Geometric path planning: Path planning in context}
+
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Proposed an algorithm to learn user preferences over robot trajectories 
+from sub-optimal coactive feedback 
+ \item Deployed the algorithm on PR2 and Baxter robotic platforms and trained
+them for various household-chores and grocery checkout tasks
+ \item Received substantial attention from popular press such as FOX News, IEEE
+Spectrum, Techcrunch, Discovery Channel and many others
+ \end{itemize}
+
+{\bf SPG-GMKL: Multiple kernel learning (MKL) with Millions of kernels}
+
+\begin{itemize}
+\item Developed MKL algorithm that scaled to Millions of kernels on UCI data
+sets
+\item The released software package is being used by many research groups
+\end{itemize}
+
+\section{Professional Experience}
+{\bf Purdue University,} USA \hfill (Summer 2011)
+    
+ \vspace{-3mm}
+  \hspace {4mm }Research Intern, Statistics Department with Prof. S. V. N. Vishwanathan
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Developed Multiple Kernel Learning algorithms to scale to Millions of
+kernels
+%(MKL) Support Vector Machine
+% \item Scaling MKL to Millions of kernels on UCI data sets
+ \end{itemize}
+
+{\bf The Royal Bank of Scotland,} India  \hfill  (Summer 2010)
+   
+ %\vspace{-3mm}
+ %\hspace {4mm }Software Engineering Intern
+
+\begin{itemize} \itemsep -2pt 
+\item Developed software to automate testing of web application GUI
+%\item Deployed the software as an integral part of company’s software testing routine
+\end{itemize}
+
+
+\iffalse  
+\section{Teaching Experience}
+ {\bf Cornell University,} Ithaca, NY, USA \hfill (2010-present)
+    
+ \vspace{-3mm}
+  \hspace {4mm}  Teaching Assistant, Computer Science Department
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item CS 4740: Natural Language Processing, Spring 2013
+ \item CS 4700: Artificial Intelligence, Fall 2012
+ \end{itemize}
+ 
+ {\bf Indian Institute of Technology Delhi}, India \hfill (2011 - 2012)
+    
+ \vspace{-3mm}
+  \hspace {4mm}  Teaching Assistant, Electrical Engineering Department
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item EEL102: Introduction to Circuits, Spring 2011. Awarded with Undergraduate
+ Teaching Assistant award.
+ \item EEL101: Introduction to Circuits, Fall 2011
+ \item EEL102: Introduction to Circuits, Spring 2012
+ \end{itemize}
+\fi
+
+\section{Mentoring}
+
+{\bf Vaibhav Aggarwal} (\textbf{won Cornell ELI 2014 award} for his work on PlanIt)
+
+\vspace{-4mm}
+{\bf Debarghya Das}, Spring 2014 - Present (working on PlanIt and Robo Brain)
+
+\vspace{-4mm}
+{\bf Jayesh Gupta}, Summer 2014 Intern from IIT Kanpur, India 
+
+ \vspace{-4mm}
+{\bf Shikhar Sharma}, Summer 2013 Intern from IIT Kanpur, India (now at U of
+Toronto)
+
+ \vspace{-4mm}
+{\bf Brian Wojcik}, Spring 2013, worked on Coactive Learning (now at Microsoft) 
+
+\iffalse
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Computer \\ Skills}
+   \begin{tabular}{l p{3in}}
+    \underline{Languages:} & C, C++, Java, Perl, Python, Matlab \\
+
+     \underline{Grid computing:} & Hadoop (Pig and streaming Perl) \\   
+      \underline{Operating Systems:} & Linux, OSX, Windows \\ 
+ \end{tabular}
+
+
+\section{Other \\ Activities}
+	Workshop Organizer for Learning Plans with Context from Human Signals, RSS 2014\\
+	
+	\vspace{-7mm}
+	Reviewer for NIPS, ICML, RSS, ICRA \\
+	\fi
+\end{resume} 
+\end{document} 
+
+
+
