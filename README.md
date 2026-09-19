@@ -10,7 +10,7 @@ This is a static HTML/CSS site with no build step or package dependencies.
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open http://127.0.0.1:8000. The landing page is `index.html`, the publication and talk archive is `research.html`, and both use `css/site.css`. Existing project pages and research assets remain at their original paths.
+Open http://127.0.0.1:8000. The landing page, including the full publication list, is `index.html`; the publication and talk archive is `research.html`, and both use `css/site.css`. Existing project pages and research assets remain at their original paths.
 
 ## Production deployment
 
@@ -40,7 +40,7 @@ Wait for the matching commit to report `built`, then verify the public page, sty
 
 - Funding: $66 million total, supplied by Ashesh for this redesign; selected investors are 8VC and Battery Ventures.
 - Coram platform description: https://www.coram.ai/
-- Profile portrait: downloaded from Ashesh's public LinkedIn profile on September 19, 2026: https://www.linkedin.com/in/ashesh-jain-ba53164a. LinkedIn's public profile provides a 200 × 200 image, stored locally as `img/ashesh-linkedin.jpg` so the site does not depend on an expiring CDN URL.
+- Profile portrait: user-supplied 800 × 800 PNG, stored as `img/ashesh-portrait.png` and displayed at 220px on desktop and 144px on mobile.
 - Prior publications, talks, PDFs, slides, and project assets remain available. The research archive preserves historical venue labels and links.
 
 The legacy Bootstrap theme remains in the repository for existing project pages. Its original attribution and license are retained in `LICENSE` and the theme source files.
