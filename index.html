@@ -1,736 +1,315 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Webpage of Ashesh Jain">
-    <meta name="author" content="Ashesh Jain">
-    <meta name="keywords" content="Coram AI, Video Security, Video Intelligence for businesses, video intelligence, businesses, lyft,self driving,autonomous vehicles,ashesh,jain,ashesh jain,deep learning, s-rnn, structural-rnn, cornell,stanford,machine learning,robobrain,ashutosh saxena,brain4cars,computer vision,atrificial intelligence,planit">
-
-    <title>Ashesh Jain</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
-    <style type="text/css">
-        #about
-        {
-            background-color:white;
-            color:black;
-        }
-
-
-        .container
-        {
-            width:100%;
-        }
-    </style>
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-36531540-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse" style="margin-right:2%;">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#intro" style="color:#B80000; font-size:large;">Home</a>
-                    </li>
-                    <!--li>
-                        <a class="page-scroll" href="#about" style="color:white; font-size:large;">About</a>
-                    </li-->
-                    <li>
-                        <a class="page-scroll" href="#research" style="color:#B80000; font-size:large;">Research</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download" style="color:#B80000; font-size:large;">Videos</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact" style="color:#B80000; font-size:large;">Talk</a>
-                    </li>
-                </ul>
-            </div>
-
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <!--
-                    <i class="fa fa-play-circle"></!--i>  <span class="light">Start</span> Bootstrap
-                    -->
-                </a>
-            </div>
-
-
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header id="intro" class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row ">
-					<div class="col-md-3 col-xs-6">
-						<p class="title">Ashesh Jain</p>
-						<p class="title">Co-founder and CEO</p>
-						<p class="title"><a href="https://coram.ai" target="_blank">Coram AI</a></p>
-						<p class="title">Bay Area, CA</p>
-						<p class="title">ashesh@coram.ai</p>
-					</div>
-					<div class="col-md-2 col-xs-6 contributor">
-						<a href="http://www.asheshjain.org" target="_blank">
-							<img src="img/ashesh_l5.jpg" alt="" />
-						</a>
-					</div>
-                    <!--div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Brain4Cars</h1>
-                        <p class="intro-text">Cabin Sensing for Safe and Personalized Driving</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div-->
-                </div>
-            </div>
-        </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Ashesh Jain is the co-founder and CEO of Coram, building AI for physical security. Previously Head of Autonomy at Lyft. Cornell PhD and CVPR Best Student Paper recipient."
+    />
+    <meta name="author" content="Ashesh Jain" />
+    <meta name="theme-color" content="#172b43" />
+    <title>Ashesh Jain — Founder & AI Researcher</title>
+    <link rel="canonical" href="https://asheshjain399.github.io/" />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body id="page-top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="#page-top"
+        >Ashesh Jain<span class="wordmark-period">.</span></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#coram">Coram</a>
+        <a href="#about">Background</a>
+        <a href="#research">Research</a>
+        <a href="mailto:ashesh@coram.ai" class="nav-contact"
+          >Get in touch <span aria-hidden="true">↗</span></a
+        >
+      </nav>
     </header>
-
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <p style="text-align:justify;">
-		I am the co-founder and CEO of <a href="https://coram.ai" target="_blank">Coram AI</a>. Coram AI builds video intelligence systems for businesses of all sizes. 
-		With Coram AI, each camera "works for you" instead of just being a video recorder. We help our customers gain new insights into their operations, safety, 
-		and security.
-			
-		In my past life, I was the Head of Autonomy at <a href="https://level5.lyft.com/#ourteam" target="_blank">Lyft Self-Driving Program</a>.
-                My team is responsible for all on-vehicle perception & planning capabilities
-                of Lyft's Autonomous Vehicle. This incldues Computer Vision, 3D
-                Perception, Prediction, Motion planning, and the machine
-                learning infrastructure to deploy real-time deep learned models
-                on the vehicle platform. Prior to Lyft, I was at
-                <a href="https://techcrunch.com/2016/11/07/stealth-uber-competitor-zoox-valued-at-1-5-billion/" target="_blank">Zoox</a>.
-                </p>
-                <p style="text-align:justify;">
-                In my academic life, I obtained PhD in Computer Science from Cornell University.
-                I was a visiting research scholar at the <a href="http://ai.stanford.edu/" target="_blank">Stanford AI Lab</a>
-                where I started the
-                <a href="http://brain4cars.com" target="_blank">Brain4Cars</a> and <a href="http://robobrain.me" target="_blank">RoboBrain</a> projects.
-                I also have a Bachelors degree in Electrical Engineering from IIT Delhi.
-                </p>
-
-                <!--p style="text-align:justify;">
-                I am a fourth year PhD student in the Department of Computer Science at Cornell University and a visiting PhD student at the <a href="http://ai.stanford.edu/" target="_blank">Stanford AI Lab</a>. I am advised by <a href="http://www.cs.stanford.edu/people/asaxena/index.html" target="_blank">Ashutosh Saxena</a>. Recently I have been working on deep learning for several sensory rich perception problems on cars, humans, and robots. Broadly my thesis is about human-robot interactive learning systems, and my recent projects are Brain4Cars and RoboBrain. At Stanford I also collaborate with <a href="http://cvgl.stanford.edu/silvio/" target="_blank">Silvio Savarese</a>.  I feel fortunate to have collaborated and mentored by <a href="http://www.cs.cornell.edu/People/tj/" target="_blank">Thorsten Joachims</a>, <a href="http://cvgl.stanford.edu/silvio/" target="_blank">Silvio Savarese</a>, <a href="http://www.cs.cornell.edu/selman/" target="_blank">Bart Selman</a>, <a href="http://research.microsoft.com/en-us/um/people/manik/" target="_blank">Manik Varma</a>, and <a href="https://www.soe.ucsc.edu/people/vishy" target="_blank">S V N Vishwanathan</a>. I graduated from IIT Delhi in 2012 with a Bachelors degree in Electrical Engineering.
-<<<<<<< HEAD
-
-                </p-->
-
-                </p>
-                <!--p>
-
-                I am a fourth year PhD student in the Department of Computer Science at Cornell University. I am advised by <a href="http://www.cs.stanford.edu/people/asaxena/index.html" target="_blank">Ashutosh Saxena</a>.
-                After finishing second year of PhD at Cornell I moved to the <a href="http://ai.stanford.edu/" target="_blank">Stanford AI Lab</a> as a visiting PhD student, where I started the <a class="page-scroll" href="#research">Brain4Cars</a> project and work on some exciting robot-vision problems with deep learning. At Stanford I also collaborate with <a href="http://cvgl.stanford.edu/silvio/" target="_blank">Silvio Savarese</a> and the <a href="http://cvgl.stanford.edu/" target="_blank">CVGL</a> group. My research interest lies at the intersection of machine learning, computer vision and robotics. It includes building machine learning systems to allow agents (robots, cars etc.) learn from weak and noisy human signals. My <a class="page-scroll" href="#research">recent projects</a> are Brain4Cars and RoboBrain. I feel fortunate to have collaborated, and mentored by <a href="http://www.cs.cornell.edu/People/tj/" target="_blank">Thorsten Joachims</a>, <a href="http://cvgl.stanford.edu/silvio/" target="_blank">Silvio Savarese</a>, <a href="http://research.microsoft.com/en-us/um/people/manik/" target="_blank">Manik Varma</a>, and <a href="https://www.soe.ucsc.edu/people/vishy" target="_blank">S V N Vishwanathan</a>. I graduated from IIT Delhi in 2012 with a Bachelors degree in Electrical Engineering and Masters in Information and Communication Technology.</p-->
-
+    <main id="main">
+      <section id="intro" class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Founder. Engineer. AI researcher.</p>
+          <h1 id="hero-title">
+            Building AI for<br />the <em>physical world.</em>
+          </h1>
+          <p class="hero-description">
+            I’m Ashesh Jain, co-founder and CEO of
+            <a href="https://www.coram.ai/">Coram</a>. I turn advances in AI
+            into products that protect people and solve problems in the real
+            world.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#coram"
+              >What I’m building <span aria-hidden="true">↓</span></a
+            >
+            <a
+              class="text-link"
+              href="https://www.linkedin.com/in/ashesh-jain-ba53164a"
+              >Connect on LinkedIn <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+        <figure class="portrait">
+          <img
+            src="img/ashesh-linkedin.jpg"
+            alt="Ashesh Jain, co-founder and CEO of Coram"
+            width="400"
+            height="400"
+            fetchpriority="high"
+          />
+          <figcaption>
+            <span>Ashesh Jain</span><span>San Francisco Bay Area</span>
+          </figcaption>
+        </figure>
+      </section>
+      <div class="credentials wrap" aria-label="Career highlights">
+        <p><span>Building</span><strong>Coram</strong></p>
+        <p><span>Previously</span><strong>Lyft · Zoox</strong></p>
+        <p><span>Research</span><strong>Cornell · Stanford AI Lab</strong></p>
+        <p><span>Recognition</span><strong>CVPR Best Student Paper</strong></p>
+      </div>
+      <section id="coram" class="section wrap" aria-labelledby="coram-title">
+        <div class="section-heading">
+          <p class="eyebrow">01 / Building Coram</p>
+          <span class="section-note">Co-founder & CEO</span>
+        </div>
+        <div class="coram-panel">
+          <div class="coram-story">
+            <a class="coram-wordmark" href="https://www.coram.ai/"
+              >coram<span aria-hidden="true">↗</span></a
+            >
+            <h2 id="coram-title">A safer world.<br />Powered by AI.</h2>
+            <p>
+              At Coram, we’re building AI that helps organizations protect their
+              people and spaces. Our platform brings video security, access
+              control, and emergency response into one connected system.
+            </p>
+            <p>
+              We turn existing cameras into intelligence that teams can act on,
+              helping them find answers faster and respond when it matters.
+            </p>
+            <a class="text-link" href="https://www.coram.ai/"
+              >Explore Coram <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <div class="funding">
+            <p class="eyebrow">Built with conviction. Backed to scale.</p>
+            <p class="funding-number">$66<span>M</span></p>
+            <p class="funding-caption">Total funding raised</p>
+            <div class="investors">
+              <p>Backed by leading investors, including</p>
+              <div>
+                <a href="https://www.8vc.com/">8VC</a
+                ><a
+                  href="https://www.battery.com/blog/video-ai-enhancing-physical-security-while-preserving-privacy-battery-leads-coram-ais-series-a/"
+                  >Battery Ventures</a
+                >
+              </div>
             </div>
-
-
+          </div>
         </div>
-
-        <div class="row">
-
-
-            <p> <i class="fa fa-bomb fa-3x"> News </i> </p>
-            <!--i class="fa fa-bomb fa-3x"></i-->
-                <!--p><i class="fa fa-bomb fa-3x"/></p-->
-                <div class="col-md-offset-2 col-md-8">
-                    <p>My recent talk <a href="https://atscaleconference.com/events/the-2019-scale-conference/"
-                      target="_blank">@Scale Conference</a> on self-supervised
-                    learning for autonomous driving</p>
-                    <div class="aspect-ratio">
-                      <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fatscaleevents%2Fvideos%2F455976911680297%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-                    </div>
-
-                </div>
-
-
-            <div class="col-md-8 col-md-offset-2">
-                <ul>
-                    <li><p style="text-align:left"> <a href="https://atscaleconference.com/videos/scale-2019-unique-challenges-and-opportunities-for-self-supervised-learning-in-autonomous-driving/" target="_blank">Talk</a> on self-supervised learning for
-                      Autonomous driving <a href="https://atscaleconference.com/events/the-2019-scale-conference/" target="_blank">@Scale conference</a>, October 2019</li>
-                    <li><p style="text-align:left"> <a href="https://medium.com/lyftlevel5/high-fidelity-sensor-calibration-for-autonomous-vehicles-6af06eba4c26"
-                        target="_blank">Blog post</a> on sensor calibration for
-                      Autonomous Vehicle, August 2019</li>
-                    <li><p style="text-align:left"> Lyft open sourced one of the
-                      largest 3D Perception and Prediction <a href="https://level5.lyft.com/dataset/"
-                                                              target="_blank">data
-                                                              set</a> for Autonomous
-                    Vehicle, July 2019</li>
-                    <li><p style="text-align:left"> <a href="https://medium.com/lyftlevel5/employee-spotlight-ashesh-jain-4b7df4043c76"
-                        target="_blank">Spotlight</a> from Lyft on my
-                      journey, Feb 2019</li>
-                    <li> <p style="text-align:left">One <a href="https://arxiv.org/pdf/1711.10871.pdf" target="_blank">paper</a> accepted to CVPR 2018.</li>
-                    <li> <p style="text-align:left">Joined Lyft Self Driving Program, January 2018</li>
-                    <li> <p style="text-align:left"> <b>Best student paper award</b> at CVPR 2016 (Deep learning on spatio-temporal graphs)</li>
-                    <li><p style="text-align:left"> <a href="pdfs/AsheshJainPhdThesis.pdf" target="_blank">PhD thesis</a>, May 2016.</p></li>
-                    <li><p style="text-align:left">Structural-RNN accepted as an <b>ORAL</b> to CVPR 2016.</p></li>
-                    <li><p style="text-align:left">Our paper on sensory-fusion RNN-LSTM for driver activity anticipation is accepted to ICRA 2016</p></li>
-                    <li><p style="text-align:left">I recently gave talks at Oculus, University of Washington Seattle, Keynote at the ICCV workshop on Autonomous driving, BayLearn Symposium, Qualcomm, and Zoox Labs on:  Deep Learning for Spatio-Temporal Problems: On Cars, Humans, and Robots (<a href="https://drive.google.com/file/d/0B7lfjqylzqmMd2VETUtlaE1qU0k/view?usp=sharing" target="_blank">ppt with videos</a>, 300MB) (<a href="https://drive.google.com/file/d/0B7lfjqylzqmMV3NHZlBEOHpKNXM/view?usp=sharing" target="_blank">pdf</a>, 30MB)</p></li>
-                    <li><p style="text-align:left"> <a href="https://github.com/asheshjain399/NeuralModels" target="_blank">Neuralmodels</a>: A deep learning package for quick prototyping of structures of Recurrent Neural Networks and for deep learning over spatio-temporal graphs.</p></li>
-                    <li><p style="text-align:left"><a href="http://brain4cars.com" target="_blank">Brain4Cars</a> driving <a href="https://github.com/asheshjain399/ICCV2015_Brain4Cars" target="_blank">data set</a> and sensory-fusion RNN <a href="https://github.com/asheshjain399/RNNexp" target="_blank">code</a>. </p></li>
-                </ul>
-
+      </section>
+      <section
+        id="about"
+        class="section wrap background-section"
+        aria-labelledby="background-title"
+      >
+        <div class="background-intro">
+          <p class="eyebrow">02 / Background</p>
+          <h2 id="background-title">From research<br />to the real world.</h2>
+          <p>
+            My work connects machine learning, computer vision, and robotics.
+            Across research labs, autonomous vehicles, and now Coram, the focus
+            has stayed the same: build intelligent systems that work beyond the
+            lab.
+          </p>
+        </div>
+        <div class="career-list">
+          <article class="career-entry">
+            <span class="career-index">01</span>
+            <div>
+              <h3>Leading autonomy at Lyft</h3>
+              <p class="career-role">Head of Autonomy · Lyft Level 5</p>
+              <p>
+                I led the teams behind on-vehicle perception and planning,
+                spanning computer vision, prediction, motion planning, and the
+                infrastructure to deploy real-time deep learning. Before Lyft, I
+                worked at Zoox.
+              </p>
             </div>
-        </div>
-
-
-
-    </section>
-
-        <!-- Back image Section -->
-    <!--section id="backg-image" class="content-section text-center">
-        <div class="backg-image-section-3">
-            <div class="container">
+          </article>
+          <article class="career-entry">
+            <span class="career-index">02</span>
+            <div>
+              <h3>Advancing AI research</h3>
+              <p class="career-role">
+                PhD, Computer Science · Cornell University
+              </p>
+              <p>
+                As a visiting research scholar at the Stanford AI Lab, I started
+                the Brain4Cars and RoboBrain projects. My research on
+                Structural-RNN received the CVPR 2016 Best Student Paper Award.
+              </p>
             </div>
-        </div>
-    </section-->
-
-        <!-- About Section -->
-    <section id="research" class="container content-section text-center">
-     <div class="row about-desc">
-            <div class="col-md-8 col-md-offset-2">
-                <h2>Research</h2>
-                <p style="text-align:justify;">
-        			My research interest lies at the intersection of machine learning, robotics, and computer vision. Broadly, I build machine learning systems & algorithms for agents – such as robots, cars etc. – to learn from informative human signals at a large-scale. Most of my work has been in multi-modal sensor-rich robotic settings, for which I have developed sensory fusion deep learning architectures. I have developed and deployed algorithms on multiple robotic platforms (PR2, Baxter etc.), on cars, and crowd-sourcing systems.
-                </p>
-                <!--p>I am leading three research projects.</p-->
-    <div class="row">
-        <div class="col-md-4 contributor">
-            <a href="http://www.brain4cars.com" target="_blank">
-                <img src="img/intro-bg-8.jpg" alt="" />
-                <p>Brain4Cars</p>
-            </a>
-        </div>
-        <div class="col-md-4 contributor">
-            <a href="http://www.robobrain.me" target="_blank">
-                <img src="img/brain_graph.jpg" alt="" />
-                <p>RoboBrain</p>
-            </a>
-        </div>
-        <div class="col-md-4 contributor">
-            <a href="http://planit.cs.cornell.edu" target="_blank">
-                <img src="img/planit.jpg" alt="" />
-                <p>PlanIt</p>
-            </a>
-        </div>
-    </div>
-         </div>
-    </div>
- <!--h4>Popular Press</h4-->
-      <div class="row about-desc">
-            <div class="col-lg-offset-2 col-lg-9 col-xs-12">
-
-				<div class="row vertical-center about-desc">
-					<div class="col-lg-2  col-xs-2 col-xs-offset-1 paper">
-						<a href="http://www.technologyreview.com/view/545506/how-future-cars-will-predict-your-driving-maneuvers-before-you-make-them/" target="_blank">
-						<img class="img-responsive" src="img/mit.jpg" alt="" />
-						</a>
-					</div>
-
-					<div class="col-lg-2 col-xs-2 paper">
-						<a href="http://www.bbc.com/news/technology-25465672" target="_blank">
-						<img class="img-responsive" src="img/bbc.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-lg-2 col-xs-2 paper">
-						<a href="http://www.wired.com/2014/08/robobrain/" target="_blank">
-						<img  class="img-responsive" src="img/wired.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-lg-2 col-xs-2 paper">
-						<a href="http://techcrunch.com/2013/11/05/cornell-researchers-help-robot-unlearn-stabby-motions-with-a-human-trainer/" target="_blank">
-						<img  class="img-responsive" src="img/tc.jpg" alt="" />
-						</a>
-					</div>
-
-				<!--/div>
-				<div class="row vertical-center about-desc"-->
-					<div class="col-lg-2 col-xs-2 paper">
-						<a href="http://www.cbsnews.com/news/training-a-robot-to-safely-wield-a-knife/" target="_blank">
-						<img class="img-responsive" src="img/cbs.jpg" alt="" />
-						</a>
-					</div>
-				</div>
-				<div class="row vertical-center about-desc">
-					<div class="col-lg-2 col-xs-2  col-xs-offset-1 paper">
-						<a href="http://www.popsci.com/blog-network/zero-moment/robot-pretends-almost-not-really-eviscerate-human-knife-science" target="_blank">
-						<img class="img-responsive" src="img/psci.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-lg-2 col-xs-2 paper">
-						<a href="http://news.discovery.com/autos/future-of-transportation/car-predicts-driving-mistakes-before-they-happen-150417.htm" target="_blank">
-						<img class="img-responsive" src="img/discovery_2.png" width="10%" alt="" />
-						</a>
-					</div>
-					<div class="col-lg-2 col-xs-2 paper">
-						<a href="http://www.dailymail.co.uk/video/sciencetech/video-1065165/Knife-wielding-robot-learns-human-touch.html" target="_blank">
-						<img class="img-responsive" src="img/dmail.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-lg-2 col-xs-2 paper">
-						<a href="http://www.nytimes.com/2014/09/02/science/robot-touch.html" target="_blank">
-						<img class="img-responsive" src="img/nyt.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-lg-2 col-xs-2 paper">
-						<a href="http://www.kurzweilai.net/attention-kmart-shoppers-theres-a-robot-checker-open-in-aisle-six" target="_blank">
-						<img class="img-responsive" src="img/kurzweil.jpg" alt="" />
-						</a>
-					</div>
-
-				</div>
-			</div>
-	</div>
-      <!--div class="row about-desc">
-            <div class="col-md-10 col-md-offset-2 col-sm-offset-2 col-sm-12 col-xs-offset-2 col-xs-12">
-
-				<div class="row vertical-center about-desc">
-					<div class="col-md-1 col-sm-1 col-xs-1 paper">
-						<a href="http://www.bbc.com/news/technology-25465672" target="_blank">
-						<img src="img/bbc.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-md-1 col-sm-1 col-xs-1 paper">
-						<a href="http://www.wired.com/2014/08/robobrain/" target="_blank">
-						<img src="img/wired.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-md-1 col-sm-1 col-xs-1 paper">
-						<a href="http://techcrunch.com/2013/11/05/cornell-researchers-help-robot-unlearn-stabby-motions-with-a-human-trainer/" target="_blank">
-						<img src="img/tc.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-md-1 col-sm-1 col-xs-1 paper">
-						<a href="http://www.kurzweilai.net/attention-kmart-shoppers-theres-a-robot-checker-open-in-aisle-six" target="_blank">
-						<img src="img/kurzweil.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-md-1 col-sm-1 col-xs-1 paper">
-						<a href="http://www.cbsnews.com/news/training-a-robot-to-safely-wield-a-knife/" target="_blank">
-						<img src="img/cbs.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-md-1 col-sm-1 col-xs-1 paper">
-						<a href="http://www.popsci.com/blog-network/zero-moment/robot-pretends-almost-not-really-eviscerate-human-knife-science" target="_blank">
-						<img src="img/psci.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-md-1 col-sm-1 col-xs-1 paper">
-						<a href="http://www.dailymail.co.uk/video/sciencetech/video-1065165/Knife-wielding-robot-learns-human-touch.html" target="_blank">
-						<img src="img/dmail.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-md-1 col-sm-1 col-xs-1 paper">
-						<a href="http://www.nytimes.com/2014/09/02/science/robot-touch.html" target="_blank">
-						<img src="img/nyt.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-md-1 col-sm-1 col-xs-1 paper">
-						<a href="http://www.technologyreview.com/view/533471/robobrain-the-worlds-first-knowledge-engine-for-robots/" target="_blank">
-						<img src="img/mit.jpg" alt="" />
-						</a>
-					</div>
-				</div>
-			</div>
-	</div-->
-
-      <div class="row">
-            <div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12">
-
-             	<div class="row vertical-center about-desc">
-					<div class="col-lg-2 col-xs-4 col-sm-2 paper">
-						<img src="img/cornelllogo.gif" alt="" />
-					</div>
-					<div class="col-lg-10 col-xs-8 col-sm-10 paper">
-						<p><b>Learning From Natural Human Interactions For Assistive Robots</b></p>
-						<p> PhD Thesis, Ashesh Jain, May 2016 [<a href="pdfs/AsheshJainPhdThesis.pdf" target="_blank">PDF</a>] </p>
-					</div>
-				</div>
+          </article>
+          <article class="career-entry">
+            <span class="career-index">03</span>
+            <div>
+              <h3>An engineering foundation</h3>
+              <p class="career-role">Electrical Engineering · IIT Delhi</p>
+              <p>
+                My undergraduate training laid the foundation for a career
+                building at the intersection of software, intelligence, and the
+                physical world.
+              </p>
             </div>
+          </article>
         </div>
-
- <h4>Journal Publications</h4>
-     <div class="row">
-            <div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12">
-
-
- 				<div class="row vertical-center about-desc">
-					<div class="col-lg-2 col-xs-4 col-sm-2 paper">
-						<a href="http://brain4cars.com" target="_blank">
-						<img src="img/car_setup.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-lg-10 col-xs-8 col-sm-10 paper">
-						<p><b>Brain4Cars: Car That Knows Before You Do via Sensory-Fusion Deep Learning
-Architecture</b></p>
-						<p>Ashesh Jain, Hema S Koppula, Shane Soh, Bharad Raghavan, Avi Singh, Ashutosh Saxena</p>
-						<p> Tech Report (under review), January 2016 [<a href="http://arxiv.org/abs/1601.00740" target="_blank">arXiv</a>] [<a href="http://brain4cars.com" target="_blank">Code and Data set</a>] </p>
-					</div>
-				</div>
-
- 				<div class="row vertical-center about-desc">
-					<div class="col-lg-2 col-xs-4 col-sm-2 paper">
-						<a href="http://planit.cs.cornell.edu" target="_blank">
-						<img src="img/planit.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-lg-10 col-xs-8 col-sm-10 paper">
-						<p><b>Learning Preferences for Manipulation Tasks from Online Coactive Feedback.</b></p>
-						<p>Ashesh Jain, Shikhar Sharma, Thorsten Joachims, Ashutosh Saxena</p>
-						<p>IJRR 2015 [<a href="pdfs/jainijrr2015.pdf" target="_blank">PDF</a>]</p>
-					</div>
-				</div>
-	</div>
-	</div>
-
-
- <h4>Conference Publications</h4>
-     <div class="row">
-            <div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12">
-
-            <div class="row vertical-center about-desc">
-                <div class="col-lg-2 col-xs-4 col-sm-2 paper">
-                    <a href="./srnn/index.html" target="_blank">
-                        <img src="img/strnn.png" alt="" />
-                    </a>
-                </div>
-
-                <div class="col-lg-10 col-xs-8 col-sm-10 paper">
-                    <p><b>Structural-RNN: Deep Learning on Spatio-Temporal Graphs</b></p>
-                    <p>Ashesh Jain, Amir R. Zamir, Silvio Savarese, Ashutosh Saxena</p>
-                    <p>CVPR 2016 (<font color="red"><b>Full ORAL</b></font>) (<font color="red"><b>Best Student Paper</b></font>) [<a href="pdfs/jaincvpr2016.pdf" target="_blank">PDF</a>] [<a href="http://arxiv.org/abs/1511.05298" target="_blank">arXiv</a>] [<a href="pdfs/srnn_supplementary.pdf" target="_blank">supplementary</a>] [<a href="https://github.com/asheshjain399/RNNexp" target="_blank">Code</a>] [<a href="https://www.youtube.com/watch?v=JTr_wkPN-xs" target="_blank">Video</a>]</p>
-                </div>
+      </section>
+      <section
+        id="research"
+        class="section research-section"
+        aria-labelledby="research-title"
+      >
+        <div class="wrap">
+          <div class="section-heading">
+            <p class="eyebrow">03 / Selected research</p>
+            <a class="text-link" href="research.html"
+              >All publications & talks <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <h2 id="research-title">Ideas that moved things forward.</h2>
+          <div class="research-grid">
+            <article class="research-card">
+              <div class="paper-meta">
+                CVPR 2016 <span class="award">Best Student Paper</span>
+              </div>
+              <h3>Structural-RNN</h3>
+              <p class="paper-subtitle">
+                Deep Learning on Spatio-Temporal Graphs
+              </p>
+              <p>
+                A framework that brings recurrent neural networks to structured
+                problems involving motion, interactions, and time.
+              </p>
+              <div class="paper-links">
+                <a href="srnn/index.html"
+                  >Project <span aria-hidden="true">↗</span></a
+                ><a href="pdfs/jaincvpr2016.pdf"
+                  >Paper <span aria-hidden="true">↗</span></a
+                ><a href="https://github.com/asheshjain399/RNNexp"
+                  >Code <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+            <article class="research-card">
+              <div class="paper-meta">ICCV 2015 · ICRA 2016</div>
+              <h3>Brain4Cars</h3>
+              <p class="paper-subtitle">Anticipating Driver Behavior</p>
+              <p>
+                Combining signals from inside and outside a car to anticipate a
+                driver’s next maneuver before it happens.
+              </p>
+              <div class="paper-links">
+                <a href="https://arxiv.org/abs/1601.00740"
+                  >Paper <span aria-hidden="true">↗</span></a
+                ><a href="https://github.com/asheshjain399/ICCV2015_Brain4Cars"
+                  >Code & data <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+            <article class="research-card">
+              <div class="paper-meta">ISRR 2015</div>
+              <h3>RoboBrain</h3>
+              <p class="paper-subtitle">A Knowledge Engine for Robots</p>
+              <p>
+                Bringing together knowledge from the web and robotics research
+                to help robots understand and act in the world.
+              </p>
+              <div class="paper-links">
+                <a href="https://arxiv.org/abs/1412.0691"
+                  >Paper <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="research-footer">
+            <p>
+              My doctoral work:
+              <span
+                >Learning from Natural Human Interactions for Assistive
+                Robots</span
+              >
+            </p>
+            <a class="text-link" href="pdfs/AsheshJainPhdThesis.pdf"
+              >Read the thesis <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section
+        id="contact"
+        class="section wrap talks-section"
+        aria-labelledby="talk-title"
+      >
+        <p class="eyebrow">04 / Sharing the work</p>
+        <div class="talk-feature">
+          <div>
+            <p class="talk-meta">@Scale Conference · 2019</p>
+            <h2 id="talk-title">
+              Teaching autonomous cars<br />to learn from the world.
+            </h2>
+            <p>
+              A talk on the challenges and opportunities of self-supervised
+              learning for autonomous driving.
+            </p>
+          </div>
+          <a
+            class="button button-outline"
+            href="https://atscaleconference.com/videos/scale-2019-unique-challenges-and-opportunities-for-self-supervised-learning-in-autonomous-driving/"
+            >Watch the talk <span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <div id="download" class="video-links">
+          <span>Research in motion</span
+          ><a href="https://www.youtube.com/watch?v=O5I1hBwkwJc"
+            >Brain4Cars demo <span aria-hidden="true">↗</span></a
+          ><a href="https://www.youtube.com/watch?v=JTr_wkPN-xs"
+            >Structural-RNN demo <span aria-hidden="true">↗</span></a
+          ><a href="research.html#videos"
+            >More videos <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+      <section class="connect" aria-labelledby="connect-title">
+        <div class="wrap connect-inner">
+          <div>
+            <p class="eyebrow">Let’s connect</p>
+            <h2 id="connect-title">
+              Good things start<br />with a conversation.
+            </h2>
+          </div>
+          <div class="connect-links">
+            <a class="email-link" href="mailto:ashesh@coram.ai"
+              >ashesh@coram.ai <span aria-hidden="true">↗</span></a
+            >
+            <div>
+              <a href="https://www.linkedin.com/in/ashesh-jain-ba53164a"
+                >LinkedIn</a
+              ><a href="https://github.com/asheshjain399">GitHub</a
+              ><a href="https://www.coram.ai/">Coram</a>
             </div>
-
-			<div class="row vertical-center about-desc">
-				<div class="col-lg-2 col-xs-4 col-sm-2 paper">
-					<a href="http://www.brain4cars.com" target="_blank">
-					<img src="img/fusionRNN.png" alt="" />
-					</a>
-				</div>
-				<div class="col-lg-10 col-xs-8 col-sm-10 paper">
-					<p><b>Recurrent Neural Networks for Driver Activity Anticipation via Sensory-Fusion Architecture</b></p>
-					<p>Ashesh Jain, Avi Singh, Hema S Koppula, Shane Soh, Ashutosh Saxena</p>
-					<p>ICRA 2016 [<a href="pdfs/jainicra2016.pdf" target="_blank">PDF</a>] [<a href="http://arxiv.org/abs/1509.05016" target="_blank">arXiv</a>] [<a href="https://github.com/asheshjain399/RNNexp" target="_blank">Code</a>]</p>
-				</div>
-			</div>
-
-
-
-				<div class="row vertical-center about-desc">
-					<div class="col-lg-2 col-xs-4 col-sm-2 paper">
-						<a href="http://www.brain4cars.com" target="_blank">
-						<img src="img/demo.jpg" alt="" />
-						</a>
-					</div>
-
-					<div class="col-lg-10 col-xs-8 col-sm-10 paper">
-						<p><b>Car That Knows Before You Do: Anticipating Maneuvers via Learning Temporal Driving Models</b></p>
-						<p>Ashesh Jain, Hema S Koppula, Bharad Raghavan, Shane Soh, Ashutosh Saxena</p>
-						<p>ICCV 2015 [<a href="pdfs/iccv2015.pdf" target="_blank">PDF</a>] [<a href="https://github.com/asheshjain399/ICCV2015_Brain4Cars" target="_blank">Code and Data set</a>] [<a href="http://arxiv.org/abs/1504.02789" target="_blank">arXiv</a>]</p>
-					</div>
-				</div>
-
-				<div class="row vertical-center about-desc">
-					<div class="col-lg-2 col-xs-4 col-sm-2 paper">
-						<a href="http://www.brain4cars.com" target="_blank">
-						<img src="img/car_sensor.jpg" alt="" />
-						</a>
-					</div>
-					<div class="col-lg-10 col-xs-8 col-sm-10 paper">
-						<p><b>Brain4Cars: Sensory-Fusion Recurrent Neural Models for Driver Activity Anticipation</b></p>
-						<p>Ashesh Jain, Shane Soh, Bharad Raghavan, Avi Singh, Hema S Koppula, Ashutosh Saxena</p>
-						<p>BayLearn Symposium 2015  [<a href="pdfs/baylearn.pdf" target="_blank">Extended abstract</a>] (<font color="red"><b>Full ORAL</b></font>)</p>
-					</div>
-
-				</div>
-
-
-
-
-
-
-				<div class="row vertical-center about-desc">
-						<div class="col-lg-2 col-xs-4 col-sm-2 paper">
-							<a href="http://planit.cs.cornell.edu" target="_blank">
-							<img src="img/planit_img.png" alt="" />
-							</a>
-						</div>
-						<div class="col-lg-10 col-xs-8 col-sm-10 paper">
-							<p><b>PlanIt: A Crowdsourcing Approach for Learning to Plan Paths from Large Scale Preference Feedback.</b></p>
-							<p>Ashesh Jain, Debarghya Das, Jayesh Gupta, Ashutosh Saxena</p>
-							<p>ICRA 2015 [<a href="pdfs/jainicra2015.pdf" target="_blank">PDF</a>]</p>
-						</div>
-				</div>
-
-				<div class="row vertical-center about-desc">
-						<div class="col-lg-2 col-xs-4 col-sm-2 paper">
-							<a href="http://robobrain.me" target="_blank">
-							<img src="img/robobrain_img.png" alt="" />
-							</a>
-						</div>
-						<div class="col-lg-10 col-xs-8 col-sm-10 paper">
-							<p><b>RoboBrain: Large-Scale Knowledge Engine for Robots</b></p>
-							<p>Ashutosh Saxena, Ashesh Jain, Ozan Sener, Aditya Jami, Dipendra K Misra, Hema S Koppula</p>
-							<p>ISRR 2015 [<a href="http://arxiv.org/abs/1412.0691" target="_blank">arXiv</a>]</p>
-						</div>
-				</div>
-
-				<div class="row vertical-center about-desc">
-						<div class="col-lg-2 col-xs-4 col-sm-2 paper">
-							<a href="http://pr.cs.cornell.edu/anticipation/" target="_blank">
-							<img src="img/main_traj.jpg" alt="" />
-							</a>
-						</div>
-						<div class="col-lg-10 col-xs-8 col-sm-10 paper">
-							<p><b>Anticipatory Planning for Human-Robot Teams.</b></p>
-							<p>Hema S Koppula, Ashesh Jain, Ashutosh Saxena</p>
-							<p>ISER 2014 [<a href="pdfs/koppulaiser14.pdf" target="_blank">PDF</a>]</p>
-						</div>
-				</div>
-
-				<div class="row vertical-center about-desc">
-						<div class="col-lg-2 col-xs-4 col-sm-2 paper">
-							<a href="http://pr.cs.cornell.edu/coactive/" target="_blank">
-							<img src="img/isrr2013.jpg" alt="" />
-							</a>
-						</div>
-						<div class="col-lg-10 col-xs-8 col-sm-10 paper">
-							<p><b>Beyond Geometric Path Planning: Learning Context-Driven Trajectory Preferences via Sub-optimal Feedback.</b></p>
-							<p>Ashesh Jain, Shikhar Sharma, Ashutosh Saxena</p>
-							<p>ISRR 2013 [<a href="pdfs/jainisrr2013.pdf" target="_blank">PDF</a>]</p>
-						</div>
-				</div>
-
-				<div class="row vertical-center about-desc">
-						<div class="col-lg-2 col-xs-4 col-sm-2 paper">
-							<a href="http://planit.cs.cornell.edu" target="_blank">
-							<img src="img/nips2013.png" alt="" />
-							</a>
-						</div>
-						<div class="col-lg-10 col-xs-8 col-sm-10 paper">
-							<p><b>Learning Trajectory Preferences for Manipulators via Iterative Improvement.</b></p>
-							<p>Ashesh Jain, Brain Wojcik, Thorsten Joachims, Ashutosh Saxena</p>
-							<p>NIPS 2013 [<a href="pdfs/jainnips2013.pdf" target="_blank">PDF</a>]</p>
-						</div>
-				</div>
-
-				<div class="row vertical-center about-desc">
-						<div class="col-lg-2 col-xs-4 col-sm-2 paper">
-							<a href="https://www.youtube.com/watch?v=oQNryXmo8iQ" target="_blank">
-							<img src="img/kdd2012.png" alt="" />
-							</a>
-						</div>
-						<div class="col-lg-10 col-xs-8 col-sm-10 paper">
-							<p><b>SPG-GMKL: Generalized multiple kernel learning with a million kernels.</b></p>
-							<p>Ashesh Jain, S. V. N. Vishwanathan, Manik Varma</p>
-							<p>SIGKDD 2012 [<a href="pdfs/jainkdd2012.pdf" target="_blank">PDF</a> | <a href="http://www.cs.cornell.edu/~ashesh/pubs/code/SPG-GMKL/download.html" target="_blank">Code</a>]</p>
-						</div>
-				</div>
-
-			</div>
-
-	</div>
-
-
-    </section>
-
-    <!-- Back image Section -->
-    <!--section id="backg-image" class="content-section text-center">
-        <div class="backg-image-section-2">
-            <div class="container">
-            </div>
+          </div>
         </div>
-    </section-->
-
-    <section id="backg-image" class="content-section text-center">
-    <div class="backg-image-section-3">
-            <div class="container">
-            </div>
-        </div>
-    </section>
-
- <section id="download" class="container content-section text-center">
-		<div class="row about-desc">
-			<div class="col-md-8 col-md-offset-2">
-				<h2>Video Demonstration</h2>
-				<div class="row">
-					<div class="col-md-5">
-						<p>Brain4Cars: Sensory-fusion deep learning for smart-cars</p>
-						<div class="aspect-ratio">
-						<iframe width="560px" height="315px" src="https://www.youtube.com/embed/O5I1hBwkwJc" frameborder="0" allowfullscreen></iframe>
-
-						</div>
-
-					 </div>
-					<div class="col-md-5 col-md-offset-2">
-						<p>Interactive human-robot learning from coactive feedback</p>
-						<div class="aspect-ratio">
-						<iframe width="560px" height="315px" src="https://www.youtube.com/embed/uLktpkd7ojA" frameborder="0" allowfullscreen></iframe>
-						</div>
-
-					 </div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row about-desc">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="row">
-					<div class="col-md-5">
-						<p>Anticipating driver maneuvers few seconds in advance</p>
-						<div class="aspect-ratio">
-						<iframe width="560px" height="315px" src="https://www.youtube.com/embed/mLOa7WRnBxQ" frameborder="0" allowfullscreen></iframe>
-
-						</div>
-
-					 </div>
-					<div class="col-md-5 col-md-offset-2">
-						<p>Structural-RNN: Deep Learning on Spatio-Temporal Graphs</p>
-						<div class="aspect-ratio">
-						<iframe width="560px" height="315px" src="https://www.youtube.com/embed/JTr_wkPN-xs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-						</div>
-
-					 </div>
-				</div>
-			</div>
-		</div>
- <!--/section>
-    <section id="download" class="container content-section text-center">
-		<div class="row about-desc">
-			<div class="col-md-8 col-md-offset-2">
-				<h2>Video Demonstration</h2>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="aspect-ratio">
-						<iframe width="560px" height="315px" src="https://www.youtube.com/embed/uLktpkd7ojA" frameborder="0" allowfullscreen></iframe>
-
-						</div>
-						<p>Teaching robot from coactive feedback</p>
-					 </div>
-					<div class="col-md-4">
-						<div class="aspect-ratio">
-						<iframe width="560px" height="315px" src="https://www.youtube.com/embed/pkm0f2WgwO4" frameborder="0" allowfullscreen></iframe>
-						</div>
-						<p>Learning from crowdsourcing feedback</p>
-					 </div>
-					<div class="col-md-4">
-						<div class="aspect-ratio">
-						<iframe width="560px" height="315px" src="https://www.youtube.com/embed/mLOa7WRnBxQ" frameborder="0" allowfullscreen></iframe>
-						</div>
-						<p>Anticipating driver's maneuvers</p>
-					 </div>
-
-				</div>
-			</div>
-		</div>
- </section-->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-			<h2>Talks</h2>
-            <div class="col-md-8 col-md-offset-2">
-				<ul>
-                    <li><p style="text-align:left">Invited talk at Oculus (Facebook), April 2016</p></li>
-                    <li><p style="text-align:left">Keynote at the ICCV workshop on Autonomous driving. Title: <b>Deep Learning for Spatio-Temporal Problems: On Cars, Humans, and Robots.</b> Dec 2015</p></li>
-                    <li><p style="text-align:left">Invited talk at Zoox Labs (autonomous driving startup), Dec 2015</p></li>
-					<li><p style="text-align:left">Talk at University of Washington Seattle Department of Computer Science, Nov 2015</p></li>
-                    <li><p style="text-align:left">Invited talk at Qualcomm Deep Learning Research Center, Nov 2015</p></li>
-                    <li><p style="text-align:left">Oral at BayLearn 2015 on Brain4Cars: Sensory-fusion Recurrent Neural Networks (<a href="https://www.youtube.com/watch?v=b68PmiFjQ80" target="_blank">Video</a>)</p></li>
-					<li><p style="text-align:left">Invited Talk at RSS Workshop on Model Learning for Human-Robot Communication, July 2015</p></li>
-					<li><p style="text-align:left">Invited Talk at ICML Workshop on Machine Learning for Interactive Systems, July 2015</p></li>
-					<li><p style="text-align:left">Invited Talk at ICRA Tutorial on Planning, Control, and Sensing for Safe Human-Robot Interaction, May 2015</p></li>
-					<li><p style="text-align:left">Invited Talk at IIT Kanpur Department of Computer Science. RoboBrain and Learning from Weak Signals, Feb 2015</p></li>
-					<li><p style="text-align:left">Stanford Semantics and Geometry Seminar. RoboBrain and Learning from Weak Signals, Feb 2015</p></li>
-					<li><p style="text-align:left">Stanford Robotics Seminar. Learning from Weak Signals, Nov 2014</p></li>
-					<li><p style="text-align:left">Introductory talk at LPCHS workshop RSS 2014. Learning from Humans. (<a href="slides/lpchs2014.pptx" target="_blank">Slides</a>)</p></li>
-					<li><p style="text-align:left">Cornell AI Seminar and ISRR 2013. Beyond Geometric Path Planning. (<a href="slides/path_planning_with_context.pptx" target="_blank">Slides</a>)</p></li>
-					<li><p style="text-align:left">ICML Robot Learning workshop 2013. (<a href="slides/jainicml2013.pptx">Slides</a>)</p></li>
-					<li><p style="text-align:left">Oral at SIGKDD 2012. (<a href="http://www.youtube.com/watch?v=oQNryXmo8iQ" target="_blank">Video</a>) (<a href="slides/jainkdd2012.pdf" target="_blank">Slides</a>)</p></li>
-					<li><p style="text-align:left">Invited spotlight at Mysore Park Workshop on Machine Learning 2012. (<a href="http://research.microsoft.com/apps/video/default.aspx?id=171544" target="_blank">Video</a>) (<a href="slides/mysorepark2012.pptx" target="_blank">Slides</a>)</p></li>
-					<li><p style="text-align:left">Lecture at Indo-German Winter Acadmey 2010. (<a href="slides/indogerman2010.pptx" target="_blank">Slides</a>) </p></li>
-				</ul>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Cornell University 2015</p>
-        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <p>© 2026 Ashesh Jain</p>
+      <p>San Francisco Bay Area</p>
+      <a href="#page-top">Back to top <span aria-hidden="true">↑</span></a>
     </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-
-</body>
-
+  </body>
 </html>
